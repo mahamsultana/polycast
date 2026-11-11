@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240" role="img" aria-label="PolyCast: lines of a script flowing into a low-poly play button">
+  <!-- script lines (text) flowing into the play button (video) -->
+  <g fill="none" stroke="#ececec" stroke-width="18" stroke-linecap="round">
+    <path d="M30 74 H80 C100 74 100 94 114 94"/>
+    <path d="M58 120 H114"/>
+    <path d="M42 166 H80 C100 166 100 146 114 146"/>
+  </g>
+  <!-- low-poly play button: three facets, one in PolyCast coral -->
+  <g stroke-linejoin="round" stroke-width="2">
+    <polygon points="132,62 216,120 162,120" fill="#e0703f" stroke="#e0703f"/>
+    <polygon points="216,120 132,178 162,120" fill="#bdbdbd" stroke="#bdbdbd"/>
+    <polygon points="132,178 132,62 162,120" fill="#ffffff" stroke="#ffffff"/>
+  </g>
+</svg>
