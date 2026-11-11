@@ -1,0 +1,11 @@
+node_modules/
+.env
+videos/
+# generated inside any episode folder
+**/vo/
+**/frames/
+**/env.json
+**/timeline.json
+**/audio_mix.wav
+templates/**/*.mp4
+*.log

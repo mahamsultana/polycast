@@ -1,0 +1,112 @@
+{
+  "voices": {
+    "nar": {
+      "cartesia": {
+        "id": "5ee9feff-1265-424a-9d7f-8e4d431a12c7",
+        "speed": 0.95
+      },
+      "system": {
+        "gender": "male",
+        "speed": 0.95
+      }
+    },
+    "danny": {
+      "cartesia": {
+        "id": "86e30c1d-714b-4074-a1f2-1cb6b552fb49",
+        "speed": 1,
+        "emotion": "scared"
+      },
+      "system": {
+        "gender": "male",
+        "speed": 1.05
+      },
+      "fx": "asetrate=44100*1.06,aresample=44100,atempo=0.943"
+    },
+    "woman": {
+      "cartesia": {
+        "id": "320f7211-3dc3-4292-89b1-3661e8cac27c",
+        "speed": 0.8
+      },
+      "system": {
+        "gender": "female",
+        "speed": 0.85
+      }
+    }
+  },
+  "lead": 0.25,
+  "lines": [
+    {
+      "id": "l01",
+      "who": "nar",
+      "text": "This is why I don't drive Route 9 after three A.M.",
+      "after": 0.7
+    },
+    {
+      "id": "l02",
+      "who": "nar",
+      "text": "Danny and I were driving home. Empty road. Nothing but trees.",
+      "after": 0.6
+    },
+    {
+      "id": "l03",
+      "who": "danny",
+      "text": "Why do you keep looking in the back?",
+      "after": 0.45
+    },
+    {
+      "id": "l04",
+      "who": "nar",
+      "text": "I'm not.",
+      "after": 0.5
+    },
+    {
+      "id": "l05",
+      "who": "danny",
+      "text": "Then who keeps kicking my seat?",
+      "after": 1.4
+    },
+    {
+      "id": "l06",
+      "who": "nar",
+      "text": "We pulled over. We checked. The back seat was empty.",
+      "after": 0.7
+    },
+    {
+      "id": "l07",
+      "who": "nar",
+      "text": "So Danny put the radio on, to calm us down.",
+      "after": 0.8
+    },
+    {
+      "id": "l08",
+      "who": "woman",
+      "text": "Three passengers tonight.",
+      "after": 0.7
+    },
+    {
+      "id": "l09",
+      "who": "danny",
+      "text": "Ha. There's only two of us.",
+      "after": 0.9
+    },
+    {
+      "id": "l10",
+      "who": "nar",
+      "text": "Then I looked at the radio.",
+      "after": 0.6
+    },
+    {
+      "id": "l11",
+      "who": "nar",
+      "text": "It was off.",
+      "after": 3
+    },
+    {
+      "id": "l12",
+      "who": "nar",
+      "text": "Want part two? Tell us who the third passenger was, in the comments.",
+      "after": 1.4
+    }
+  ],
+  "provider": "auto"
+}

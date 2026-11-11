@@ -1,0 +1,29 @@
+{
+  "provider": "auto",
+  "voices": {
+    "host": {
+      "cartesia": { "id": "9626c31c-bec5-4cca-baa8-f8ba9e84c8bc", "speed": 1.0 },
+      "system": { "gender": "female" }
+    },
+    "orb": {
+      "cartesia": { "id": "87286a8d-7ea7-4235-a41a-dd9fa6630feb", "speed": 0.95 },
+      "system": { "gender": "male" },
+      "fx": "robot"
+    }
+  },
+  "lead": 0.35,
+  "lines": [
+    { "id": "o01", "who": "orb",  "text": "So you think a text file can make a whole video?", "after": 0.25 },
+    { "id": "h01", "who": "host", "text": "I don't think. I know. This video started as a JSON file.", "say": "I don't think. I know. This video started as a jason file.", "after": 0.3 },
+    { "id": "o02", "who": "orb",  "text": "And who's doing all the rendering?", "after": 0.25 },
+    { "id": "h02", "who": "host", "text": "Three.js, inside Chrome, one frame at a time.", "say": "Three J S, inside Chrome, one frame at a time.", "after": 0.3 },
+    { "id": "o03", "who": "orb",  "text": "Rude. I thought it was me.", "after": 0.45 },
+    { "id": "h03", "who": "host", "text": "You're the talent. Every voice is generated, and your mouth moves to the real audio.", "after": 0.3 },
+    { "id": "o04", "who": "orb",  "text": "Do I need a fancy voice subscription?", "after": 0.25 },
+    { "id": "h04", "who": "host", "text": "Nope. Use Cartesia if you have a key. If not, it uses the free voice already on your computer.", "after": 0.3 },
+    { "id": "o05", "who": "orb",  "text": "Wait... free? I'm in.", "after": 0.45 },
+    { "id": "h05", "who": "host", "text": "Add PolyCast to Claude Code as a skill, describe your video, and it builds the whole thing.", "say": "Add Polycast to Clawd Code as a skill, describe your video, and it builds the whole thing.", "after": 0.25 },
+    { "id": "o06", "who": "orb",  "text": "Even the jokes?", "after": 0.3 },
+    { "id": "h06", "who": "host", "text": "Especially the jokes. PolyCast is free and open source. Go make something.", "say": "Especially the jokes. Polycast is free and open source. Go make something.", "after": 1.8 }
+  ]
+}

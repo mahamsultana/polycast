@@ -1,0 +1,39 @@
+{
+  "name": "polycast",
+  "version": "1.0.0",
+  "description": "Write a script, get a low-poly 3D video. A host and a floating AI orb banter in a podcast studio, with generated voices, lip-sync, captions and a sound mix. Works as a Claude Code skill.",
+  "license": "MIT",
+  "author": "Maham Sultana",
+  "keywords": [
+    "low-poly",
+    "three.js",
+    "video",
+    "animation",
+    "text-to-speech",
+    "tts",
+    "cartesia",
+    "claude-code",
+    "skill",
+    "reels",
+    "explainer"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "doctor": "node scripts/doctor.js",
+    "new": "node scripts/new.js",
+    "voice": "node scripts/voice.js",
+    "preview": "node scripts/preview.js",
+    "build": "node scripts/build.js",
+    "check": "node scripts/check.js"
+  },
+  "dependencies": {
+    "puppeteer-core": "^23.11.1",
+    "three": "0.169.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/<your-username>/polycast.git"
+  }
+}
