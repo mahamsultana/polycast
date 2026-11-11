@@ -1,7 +1,7 @@
 {
   "name": "polycast",
   "version": "1.0.0",
-  "description": "Write a script, get a low-poly 3D video. A host and a floating AI orb banter in a podcast studio, with generated voices, lip-sync, captions and a sound mix. Works as a Claude Code skill.",
+  "description": "Write a script, get a low-poly 3D video. A host and a floating AI orb banter in a podcast studio, with generated voices, lip-sync, captions and a sound mix. Works with any AI coding agent: Claude Code, Codex, Antigravity and more.",
   "license": "MIT",
   "author": "Maham Sultana",
   "keywords": [
@@ -13,6 +13,9 @@
     "tts",
     "cartesia",
     "claude-code",
+    "codex",
+    "antigravity",
+    "ai-agent",
     "skill",
     "reels",
     "explainer"

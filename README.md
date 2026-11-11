@@ -18,7 +18,7 @@ and renders a finished MP4 with captions and music.
 ![Node 18+](https://img.shields.io/badge/node-18%2B-339933?logo=node.js&logoColor=white)
 ![three.js](https://img.shields.io/badge/three.js-r169-black?logo=three.js)
 ![Free voices](https://img.shields.io/badge/voices-free%20or%20Cartesia-5cc98a)
-![Claude Code skill](https://img.shields.io/badge/Claude%20Code-skill-d97757)
+![Works with any AI agent](https://img.shields.io/badge/AI%20agents-Claude%20·%20Codex%20·%20Antigravity%20·%20any-d97757)
 
 ![PolyCast demo: the orb says "Rude. I thought it was me." and the host answers](docs/demo.gif)
 
@@ -30,7 +30,7 @@ and renders a finished MP4 with captions and music.
 
 ## Table of contents
 - [Why PolyCast](#-why-polycast)
-- [Quick start with Claude Code](#-quick-start-with-claude-code)
+- [Quick start with an AI agent](#-quick-start-with-an-ai-agent)
 - [Quick start by hand](#-quick-start-by-hand)
 - [How a video is made](#-how-a-video-is-made)
 - [Voices: free or studio](#-voices-free-or-studio)
@@ -47,11 +47,23 @@ and renders a finished MP4 with captions and music.
 - **Edits that stay in sync.** Every camera cut, screen and joke is cued to a *word*, so regenerating the voices never breaks the timing.
 - **Your product on screen.** Drop screenshots into `img/` and they play on the studio monitors.
 - **Ready to post.** 1920×1080 or 1080×1920, H.264 + AAC at -16 LUFS, captions burned in.
-- **Claude Code native.** Install it as a skill, describe the video, and get an MP4.
+- **Works with any AI agent.** Claude Code, ChatGPT Codex, Google Antigravity, Gemini CLI, Cursor, Copilot: describe the video and get an MP4.
 
 Good for product launches, portfolio intros, feature explainers, devlogs, course trailers, and talking-head-free YouTube Shorts and Reels.
 
-## 🤖 Quick start with Claude Code
+## 🤖 Quick start with an AI agent
+
+PolyCast works with any coding agent that can run terminal commands: **Claude Code, ChatGPT Codex, Google Antigravity, Gemini CLI, Cursor, GitHub Copilot**, and others. The whole workflow is written down in [`SKILL.md`](SKILL.md), so any agent can follow it.
+
+**Any agent:** clone the repo, open it in your agent, and ask:
+
+```bash
+git clone https://github.com/mahamsultana/polycast
+```
+
+> *"Read SKILL.md, then make a PolyCast video about my budgeting app. 45 seconds. The orb thinks spreadsheets are enough, the host proves it wrong. Use the screenshots in ./shots."*
+
+**Agents with skill support** (Claude Code, Codex, Antigravity and others that use the `SKILL.md` format): clone it into your agent's skills folder once, and it's available in every project without mentioning SKILL.md. For Claude Code:
 
 ```bash
 # macOS / Linux
@@ -61,11 +73,7 @@ git clone https://github.com/mahamsultana/polycast ~/.claude/skills/polycast
 git clone https://github.com/mahamsultana/polycast $HOME\.claude\skills\polycast
 ```
 
-Open [Claude Code](https://claude.com/claude-code) in any folder and ask:
-
-> *"Make a PolyCast video about my budgeting app. 45 seconds. The orb thinks spreadsheets are enough, the host proves it wrong. Use the screenshots in ./shots."*
-
-Claude runs the setup check, writes the script, generates and verifies the voices, directs the scene, previews the frames, and hands you the MP4. The instructions it follows are in [`SKILL.md`](SKILL.md).
+Your agent runs the setup check, writes the script, generates and verifies the voices, directs the scene, previews the frames, and hands you the MP4.
 
 ## 🛠️ Quick start by hand
 
@@ -142,7 +150,7 @@ Want a news desk, a sci-fi bridge or a cooking show? Templates are just folders.
 ## 📚 Docs, contributing, license
 
 - **[docs/GUIDE.md](docs/GUIDE.md):** the complete reference
-- **[SKILL.md](SKILL.md):** the workflow Claude follows
+- **[SKILL.md](SKILL.md):** the workflow your AI agent follows
 - **[CONTRIBUTING.md](CONTRIBUTING.md):** new templates, screens, expressions, voice providers
 - **[CHANGELOG.md](CHANGELOG.md)**
 - `npm run check`: validates scripts, templates, and that every scene cue points at a real line
