@@ -53,7 +53,16 @@ Good for product launches, portfolio intros, feature explainers, devlogs, course
 
 ## 🤖 Quick start with an AI agent
 
-PolyCast works with any coding agent that can run terminal commands: **Claude Code, ChatGPT Codex, Google Antigravity, Gemini CLI, Cursor, GitHub Copilot**, and others. The whole workflow is written down in [`SKILL.md`](SKILL.md), so any agent can follow it.
+<p>
+  <img src="docs/agents/claude-code.svg" alt="Claude Code" height="40">
+  <img src="docs/agents/codex.svg" alt="ChatGPT Codex" height="40">
+  <img src="docs/agents/antigravity.svg" alt="Google Antigravity" height="40">
+  <img src="docs/agents/gemini-cli.svg" alt="Gemini CLI" height="40">
+  <img src="docs/agents/cursor.svg" alt="Cursor" height="40">
+  <img src="docs/agents/copilot.svg" alt="GitHub Copilot" height="40">
+</p>
+
+PolyCast works with **any coding agent that can run terminal commands**. The whole workflow is written down in [`SKILL.md`](SKILL.md), so any agent can follow it.
 
 **Any agent:** clone the repo, open it in your agent, and ask:
 
