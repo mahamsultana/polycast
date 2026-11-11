@@ -1,6 +1,12 @@
 <div align="center">
 
-# 🎙️ PolyCast
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/logo.svg">
+  <source media="(prefers-color-scheme: light)" srcset="docs/logo-light.svg">
+  <img src="docs/logo-light.svg" alt="PolyCast logo" width="120">
+</picture>
+
+# PolyCast
 
 ### Write a script. Get a low-poly 3D video.
 
@@ -49,10 +55,10 @@ Good for product launches, portfolio intros, feature explainers, devlogs, course
 
 ```bash
 # macOS / Linux
-git clone https://github.com/<your-username>/polycast ~/.claude/skills/polycast
+git clone https://github.com/mahamsultana/polycast ~/.claude/skills/polycast
 
 # Windows (PowerShell)
-git clone https://github.com/<your-username>/polycast $HOME\.claude\skills\polycast
+git clone https://github.com/mahamsultana/polycast $HOME\.claude\skills\polycast
 ```
 
 Open [Claude Code](https://claude.com/claude-code) in any folder and ask:
@@ -66,7 +72,7 @@ Claude runs the setup check, writes the script, generates and verifies the voice
 You need **Node 18+**, **ffmpeg**, and **Google Chrome** (or Chromium/Edge). The doctor checks all of them and tells you how to fix anything missing.
 
 ```bash
-git clone https://github.com/<your-username>/polycast && cd polycast
+git clone https://github.com/mahamsultana/polycast && cd polycast
 npm run doctor                              # installs packages, checks ffmpeg/Chrome/voices
 
 npm run new -- videos/hello studio          # 1. scaffold an episode
@@ -141,8 +147,11 @@ Want a news desk, a sci-fi bridge or a cooking show? Templates are just folders.
 - **[CHANGELOG.md](CHANGELOG.md)**
 - `npm run check`: validates scripts, templates, and that every scene cue points at a real line
 
-Released under the **[MIT License](LICENSE)**. Use it for anything, commercial included. If PolyCast makes you a video you like, a ⭐ helps others find it.
+Released under the **[MIT License](LICENSE)**. Use it for anything, commercial included.
 
 <div align="center">
+
+**If PolyCast saved you an afternoon of animating, a ⭐ helps others find it.**
+
 <sub>Built by <b>Maham Sultana</b> · characters and sets are original low-poly models generated in code</sub>
 </div>
